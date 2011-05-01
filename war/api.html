@@ -1,0 +1,17 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>Api</title>
+</head>
+<body>
+Shorten a url(support get method only):<br>
+http://${domain}/shorten?url=${url} returns http://${domain}/${code}<br>
+* In this site,${domain} is s.jo32.info; ${url} represets the url u wish to shorten.<br>
+* e.g. http://s.jo32.info/shorten?url=google.com returns http://s.jo32.info/1<br><br>
+Get a url(support get method only):<br>
+http://${domain}/shorten?code=${code}<br>
+* ${code} represents the code u get above.<br>
+* e.g. http://s.jo32.info/shorten?code=1 returns http://google.com<br>
+</body>
+</html>

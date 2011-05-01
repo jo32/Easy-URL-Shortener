@@ -1,0 +1,123 @@
+/** Add css rules here for your application. */
+	/** Example rules used by the template application (remove for your app) */
+h1 {
+	font-size: 2em;
+	font-weight: bold;
+	color: #777777;
+	margin: 40px 0px 70px;
+	text-align: center;
+}
+
+.sendButton {
+	display: block;
+	font-size: 16pt;
+}
+
+/** Most GWT widgets already have a style name defined */
+.dialogVPanel {
+	margin: 5px;
+}
+
+.serverResponseLabelError {
+	color: red;
+}
+
+/** Set ids using widget.getElement().setId("idOfElement") */
+#closeButton {
+	margin: 15px 6px 6px;
+}
+
+/** my own CSS */
+body {
+	margin: 0px;
+	background: #efefef !important;
+}
+
+.sendingForm {
+	padding: 10px 10px 20px 10px;
+	margin: 20px 5px 0 5px;
+	border-bottom: 1px dashed #aaaaaa;
+	text-align: center;
+}
+
+.hint {
+	font-size: 18px;
+	padding: 25px 10px 0 10px;
+}
+
+.recentUrlTable {
+	margin-top: 10px;
+}
+
+.wrapper {
+	border-left: 2px dashed #dcdcdc;
+	border-right: 2px dashed #dcdcdc;
+	background: #ffffff;
+}
+
+.header {
+	height: 100px;
+}
+
+.title {
+	-x-system-font: none;
+	letter-spacing: 0.2em;
+	font: Trebuchet MS;
+	font-size: 25px;
+	text-transform: uppercase;
+	padding: 20px 0 0 10px;
+}
+
+.describtion {
+	padding:0 0 0 50px;
+	letter-spacing:0.1em;
+	font-size:14px;
+}
+
+.footer {
+	background: transparent
+		url(images/appengine-noborder-120x30.gif) no-repeat scroll
+		0 0;
+	margin: 50px 10px 10px 10px;
+	height: 22px;
+	font-size: 12px;
+	padding-top: 8px;
+	padding-left: 150px;
+}
+
+/* widgets */
+.error {
+	color: red;
+	margin: 0 10px 0 10px;
+}
+
+.button {
+	margin: 0 5px 5px 5px;
+}
+
+.status {
+	margin: 10px;
+}
+
+.inputbox {
+	border: 1px #bbbbbb dashed;
+	padding: 3px;
+	height: 30px;
+	font-size: 18px;
+	width: 85%;
+}
+
+.submit {
+	height: 32px;
+	margin-left: 10px;
+	width: 10%;
+	border: 1px outset;
+}
+
+.urlLink {
+	padding: 10px;
+	margin: 0 10px;
+	border-bottom: 1px solid #cccccc;
+	font-size: 16px;
+	width: 95%;
+}
